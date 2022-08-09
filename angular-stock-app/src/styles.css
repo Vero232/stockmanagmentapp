@@ -1,0 +1,29 @@
+/* You can add global styles to this file, and also import other style files */
+
+#add-success-alert,
+#update-success-alert,
+#delete-success-alert{
+display:none;
+}
+
+
+#add-success-alert,
+#update-success-alert,
+#delete-success-alert{
+animation-name:fadeInAndOut;
+animation-duration: 4s;
+}
+
+@keyframes fadeInAndOut{
+    0% {opacity: 0;}
+    50%{ opacity: 1;}
+    50%{ opacity: 0;}
+}
+
+@-webkit-keyframes fadeInAndOut{
+    0% {opacity: 0;}
+    50%{ opacity: 1;}
+    50%{ opacity: 0;}
+}
+
+@import "~bootstrap-icons/font/bootstrap-icons.css";

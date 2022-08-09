@@ -1,0 +1,61 @@
+<form>
+ 
+
+    <div class="mb-3">
+        <label for="regNo" class="form-label">Registration Number</label>
+        <input type="text" name="regNo" id="" class="form-control" [(ngModel)]="regNo">
+        
+    </div>
+    <div class="mb-3">
+        <label for="make" class="form-label">MAke</label>
+        <input type="text" name="make" id="" class="form-control" [(ngModel)]="make">
+        
+    </div>
+    <div class="mb-3">
+        <label for="model" class="form-label">Model</label>
+        <input type="text" name="model" id="" class="form-control" [(ngModel)]="model">
+        
+    </div>
+    <div class="mb-3">
+        <label for="modelYear" class="form-label">Model Year</label>
+        <input type="number" name="modelYear" id="" class="form-control" [(ngModel)]="modelYear">
+        
+    </div>
+    <div class="mb-3">
+        <label for="currentKMS" class="form-label">Current KMS</label>
+        <input type="currentKMS" name="currentKMS" id="" class="form-control" [(ngModel)]="currentKMS">
+        
+    </div>
+    <div class="mb-3">
+        <label for="colour" class="form-label">colour</label>
+        <input type="text" name="colour" id="" class="form-control" [(ngModel)]="colour">
+        
+    </div>
+    <div class="mb-3">
+        <label for="vin" class="form-label">VIN</label>
+        <input type="number" name="vin" id="" class="form-control" [(ngModel)]="vin">
+        
+    </div>
+
+    <div class="mb-3">
+        <label for="retailPrice" class="form-label">Retail Price</label>
+        <input type="text" name="retailPrice" id="" class="form-control" [(ngModel)]="retailPrice">
+        
+    </div>
+    <div class="mb-3">
+        <label for="costlPrice" class="form-label">Cost Price</label>
+        <input type="text" name="costlPrice" id="" class="form-control" [(ngModel)]="costlPrice">       
+    </div>
+
+    <div>
+
+</div>
+<div class="mb-3">
+    <button (click)="addstock()" *ngIf="stock.id==0" class="btn btn-primary">
+        Add
+    </button>
+    <button (click)="updatestock()" *ngIf="stock.id!=0" class="btn btn-primary">
+        Update
+    </button>
+</div>
+</form>

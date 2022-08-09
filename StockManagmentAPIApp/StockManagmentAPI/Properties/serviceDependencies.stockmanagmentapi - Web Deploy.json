@@ -1,0 +1,16 @@
+{
+  "dependencies": {
+    "mssql1": {
+      "secretStore": "AzureAppSettings",
+      "resourceId": "/subscriptions/[parameters('subscriptionId')]/resourcegroups/[parameters('resourceGroupName')]/providers/Microsoft.Sql/servers/stockmanagmentapidbserver/databases/StockManagmentAPI_db",
+      "type": "mssql.azure",
+      "connectionId": "StockManagmentDBConnectionString"
+    },
+    "mssql2": {
+      "secretStore": "AzureAppSettings",
+      "resourceId": "/subscriptions/[parameters('subscriptionId')]/resourcegroups/[parameters('resourceGroupName')]/providers/Microsoft.Sql/servers/stockmanagmentapidbserver/databases/StockManagmentAPI_Identity_db",
+      "type": "mssql.azure",
+      "connectionId": "StockManagmentAPI_Identity_dbConnectionString"
+    }
+  }
+}

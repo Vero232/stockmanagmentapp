@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "eac210a0-5c1f-4854-a644-d944cb56c1c4": {
+      "ProjectGuid": "eac210a0-5c1f-4854-a644-d944cb56c1c4",
+      "DisplayName": "StockManagmentAPI",
+      "ColorIndex": 0
+    }
+  },
+  "NextColorIndex": 1
+}
